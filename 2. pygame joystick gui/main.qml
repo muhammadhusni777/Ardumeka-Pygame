@@ -15,7 +15,7 @@ Window {
 	maximumHeight : 600
 	minimumHeight : 600
 	title:"Ardumeka PyGame Joystick Benchmark"
-	color : "#000212"
+	color : "#111111"
     visible: true
     //flags: Qt.WindowMaximized //Qt.Dialog
 	
@@ -63,7 +63,7 @@ Window {
 		y:20
 		width : 400
 		height : 120
-		color : "#122e55"
+		color : "#04b6f0"
 		border.color: "white"
 		border.width: 5
 	
@@ -76,7 +76,7 @@ Window {
 		text : "Ardumeka PyGame Joystick Benchmark"
 		wrapMode: Text.WordWrap 
 		horizontalAlignment: Text.AlignHCenter//Text.AlignJustify
-		color : "white"
+		color : "#111111"
 		font.pixelSize : 25
 	}
 	
@@ -89,7 +89,7 @@ Window {
 		text : "By : Muhammad Husni"
 		wrapMode: Text.WordWrap 
 		horizontalAlignment: Text.AlignHCenter//Text.AlignJustify
-		color : "white"
+		color : "#111111"
 		font.pixelSize : 20
 	}
 	
@@ -119,7 +119,7 @@ Window {
 		width : parent.width
 		horizontalAlignment: Text.AlignHCenter
 		text : "L2"
-		color : "white"
+		color : "#111111"
 		font.pixelSize : 24
 	}
 	
@@ -142,7 +142,7 @@ Window {
 		width : parent.width
 		horizontalAlignment: Text.AlignHCenter
 		text : "L1"
-		color : "white"
+		color : "#111111"
 		font.pixelSize : 24
 	}
 	
@@ -377,7 +377,7 @@ Window {
 		width : parent.width
 		horizontalAlignment: Text.AlignHCenter
 		text : "R2"
-		color : "white"
+		color : "#111111"
 		font.pixelSize : 24
 	}
 	
@@ -400,7 +400,7 @@ Window {
 		width : parent.width
 		horizontalAlignment: Text.AlignHCenter
 		text : "R1"
-		color : "white"
+		color : "#111111"
 		font.pixelSize : 24
 	}
 		
@@ -424,7 +424,7 @@ Window {
 		x: (parent.width-10)/2
 		y: (parent.height-30)/2
 		text : "1"
-		color : "white"
+		color : "#111111"
 		font.pixelSize : 24
 	}
 		
@@ -446,7 +446,7 @@ Window {
 		x: (parent.width-10)/2
 		y: (parent.height-30)/2
 		text : "4"
-		color : "white"
+		color : "#111111"
 		font.pixelSize : 24
 	}
 	
@@ -468,7 +468,7 @@ Window {
 		x: (parent.width-10)/2
 		y: (parent.height-30)/2
 		text : "2"
-		color : "white"
+		color : "#111111"
 		font.pixelSize : 24
 	}
 	
@@ -490,7 +490,7 @@ Window {
 		x: (parent.width-10)/2
 		y: (parent.height-30)/2
 		text : "3"
-		color : "white"
+		color : "#111111"
 		font.pixelSize : 24
 	}
 	

@@ -27,23 +27,23 @@ hat = ""
 hat_prev = ""
 
 
-up_color = "#122e55"
-left_color = "#122e55"
-right_color = "#122e55"
-down_color = "#122e55"
+up_color = "#01ccf5"
+left_color = "#01ccf5"
+right_color = "#01ccf5"
+down_color = "#01ccf5"
 
-button1_color = "#122e55"
-button2_color = "#122e55"
-button3_color = "#122e55"
-button4_color = "#122e55"
+button1_color = "#01ccf5"
+button2_color = "#01ccf5"
+button3_color = "#01ccf5"
+button4_color = "#01ccf5"
 
-button_L1_color = "#122e55"
-button_L2_color = "#122e55"
-button_R1_color = "#122e55"
-button_R2_color = "#122e55"
+button_L1_color = "#01ccf5"
+button_L2_color = "#01ccf5"
+button_R1_color = "#01ccf5"
+button_R2_color = "#01ccf5"
 
-analog1_color = "#122e55"
-analog2_color = "#122e55"
+analog1_color = "#01ccf5"
+analog2_color = "#01ccf5"
 
 
 ########## mengisi class table dengan instruksi pyqt5#############
@@ -210,34 +210,34 @@ def pygame_run(num):
                 joy_button_event = event.button
                 
                 if (joy_button_event == 0):
-                    button1_color = "#122e55"
+                    button1_color = "#01ccf5"
                     
                 if (joy_button_event == 1):
-                    button2_color = "#122e55"
+                    button2_color = "#01ccf5"
                     
                 if (joy_button_event == 2):
-                    button3_color = "#122e55"
+                    button3_color = "#01ccf5"
                     
                 if (joy_button_event == 3):
-                    button4_color = "#122e55"
+                    button4_color = "#01ccf5"
                     
                 if (joy_button_event == 4):
-                    button_L1_color = "#122e55"
+                    button_L1_color = "#01ccf5"
                     
                 if (joy_button_event == 5):
-                    button_R1_color = "#122e55"
+                    button_R1_color = "#01ccf5"
                     
                 if (joy_button_event == 6):
-                    button_L2_color = "#122e55"
+                    button_L2_color = "#01ccf5"
                 
                 if (joy_button_event == 7):
-                    button_R2_color = "#122e55"
+                    button_R2_color = "#01ccf5"
                     
                 if (joy_button_event == 10):
-                    analog1_color = "#122e55"
+                    analog1_color = "#01ccf5"
                     
                 if (joy_button_event == 11):
-                    analog2_color = "#122e55"
+                    analog2_color = "#01ccf5"
 
                 
                 
@@ -300,27 +300,27 @@ def pygame_run(num):
             print(hat)
             if (hat[0] == -1):
                 left_color = "#d84860"
-                right_color = "#122e55"
+                right_color = "#01ccf5"
                 
             if (hat[0] == 0):
-                left_color = "#122e55"
-                right_color = "#122e55"
+                left_color = "#01ccf5"
+                right_color = "#01ccf5"
                 
             if (hat[0] == 1):
-                left_color = "#122e55"
+                left_color = "#01ccf5"
                 right_color = "#d84860"
                 
                 
             if (hat[1] == -1):
                 down_color = "#d84860"
-                up_color = "#122e55"
+                up_color = "#01ccf5"
                 
             if (hat[1] == 0):
-                down_color = "#122e55"
-                up_color = "#122e55"
+                down_color = "#01ccf5"
+                up_color = "#01ccf5"
                 
             if (hat[1] == 1):
-                down_color = "#122e55"
+                down_color = "#01ccf5"
                 up_color = "#d84860"
                 
                 

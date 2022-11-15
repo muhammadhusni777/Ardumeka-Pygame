@@ -15,8 +15,8 @@ pygame.init()
 
 import paho.mqtt.client as paho
 
-#broker="broker.emqx.io"
-broker="127.0.0.1"    #local broker
+broker="broker.emqx.io"
+#broker="127.0.0.1"    #local broker
 port =  1883
 topic_test = ""
 #----------------------------------------------------------------#
@@ -71,7 +71,7 @@ analog2_color = "#01ccf5"
 analog1_data = "off"
 analog2_data = "off"
 
-mqtt_time = 0.4
+mqtt_time = 0.5
 mqtt_time_now = time.time()
 mqtt_time_prev = time.time()
 
@@ -436,7 +436,6 @@ def pygame_run(num):
         mqtt_time_now = time.time() - mqtt_time_prev
         
         if (mqtt_time_now > mqtt_time):
-            print("send")
             #publish button
             client.publish("button1",str(button1_data))
             client.publish("button2",str(button2_data))
